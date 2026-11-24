@@ -1,0 +1,66 @@
+{
+  "task_extra_args": {
+    "adv": {
+      "repair": [
+        "--loc-json",
+        "rq1/result/loc_result/mnist/CGARepair_adv_samples512_seed256_eps0.05_v3.json",
+        "--search-radius",
+        "10",
+        "--eval-samples",
+        "10000",
+        "--threshold-acc",
+        "0.97",
+        "--threshold-adv-error",
+        "0.05"
+      ],
+      "test": []
+    },
+    "backdoor": {
+      "repair": [
+        "--loc-json",
+        "rq1/result/loc_result/fashion/CGARepair_backdoor_samples512_seed256_v3.json",
+        "--search-radius",
+        "10",
+        "--eval-samples",
+        "1024",
+        "--sr-definition",
+        "legacy",
+        "--threshold-acc",
+        "0.923",
+        "--threshold-sr",
+        "0.01"
+      ],
+      "test": []
+    },
+    "safety": {
+      "repair": [
+        "--loc-json",
+        "rq1/result/loc_result/a33/CGARepair_safety_samples512_seed256_v3.json",
+        "--search-radius",
+        "10",
+        "--eval-samples",
+        "1024",
+        "--threshold-acc",
+        "0.999",
+        "--threshold-safety",
+        "0.0"
+      ],
+      "test": []
+    },
+    "fairness": {
+      "repair": [
+        "--loc-json",
+        "rq1/result/loc_result/bank/CGARepair_fairness_samples4096_seed256_v3.json",
+        "--search-radius",
+        "10",
+        "--eval-samples",
+        "10000",
+        "--min-acc",
+        "0.7928999999999999",
+        "--gap-target",
+        "0.05"
+      ],
+      "test": []
+    }
+  }
+}

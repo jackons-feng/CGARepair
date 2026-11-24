@@ -1,0 +1,514 @@
+{
+  "method": "CGARepair-FAMO",
+  "localization_seed": 256,
+  "optimization_seeds": [
+    42,
+    123,
+    256,
+    1024,
+    2026
+  ],
+  "run_tag": "famo_paper_gamma001_steps5000",
+  "records": [
+    {
+      "task": "adv",
+      "model": "mnist",
+      "seed": 42,
+      "optimizer": "famo",
+      "run_dir": "adv/loc_result/adv/mnist/epsilon_0.05/CGARepair/seed_42/famo_paper_gamma001_steps5000",
+      "summary": "adv/loc_result/adv/mnist/epsilon_0.05/CGARepair/seed_42/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "adv/loc_result/adv/mnist/epsilon_0.05/CGARepair/seed_42/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "adv/loc_result/adv/mnist/epsilon_0.05/CGARepair/seed_42/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "adv",
+      "model": "mnist",
+      "seed": 123,
+      "optimizer": "famo",
+      "run_dir": "adv/loc_result/adv/mnist/epsilon_0.05/CGARepair/seed_123/famo_paper_gamma001_steps5000",
+      "summary": "adv/loc_result/adv/mnist/epsilon_0.05/CGARepair/seed_123/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "adv/loc_result/adv/mnist/epsilon_0.05/CGARepair/seed_123/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "adv/loc_result/adv/mnist/epsilon_0.05/CGARepair/seed_123/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "adv",
+      "model": "mnist",
+      "seed": 256,
+      "optimizer": "famo",
+      "run_dir": "adv/loc_result/adv/mnist/epsilon_0.05/CGARepair/seed_256/famo_paper_gamma001_steps5000",
+      "summary": "adv/loc_result/adv/mnist/epsilon_0.05/CGARepair/seed_256/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "adv/loc_result/adv/mnist/epsilon_0.05/CGARepair/seed_256/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "adv/loc_result/adv/mnist/epsilon_0.05/CGARepair/seed_256/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "adv",
+      "model": "mnist",
+      "seed": 1024,
+      "optimizer": "famo",
+      "run_dir": "adv/loc_result/adv/mnist/epsilon_0.05/CGARepair/seed_1024/famo_paper_gamma001_steps5000",
+      "summary": "adv/loc_result/adv/mnist/epsilon_0.05/CGARepair/seed_1024/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "adv/loc_result/adv/mnist/epsilon_0.05/CGARepair/seed_1024/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "adv/loc_result/adv/mnist/epsilon_0.05/CGARepair/seed_1024/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "adv",
+      "model": "mnist",
+      "seed": 2026,
+      "optimizer": "famo",
+      "run_dir": "adv/loc_result/adv/mnist/epsilon_0.05/CGARepair/seed_2026/famo_paper_gamma001_steps5000",
+      "summary": "adv/loc_result/adv/mnist/epsilon_0.05/CGARepair/seed_2026/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "adv/loc_result/adv/mnist/epsilon_0.05/CGARepair/seed_2026/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "adv/loc_result/adv/mnist/epsilon_0.05/CGARepair/seed_2026/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "adv",
+      "model": "cifar10",
+      "seed": 42,
+      "optimizer": "famo",
+      "run_dir": "adv/loc_result/adv/cifar10/epsilon_0.1/CGARepair/seed_42/famo_paper_gamma001_steps5000",
+      "summary": "adv/loc_result/adv/cifar10/epsilon_0.1/CGARepair/seed_42/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "adv/loc_result/adv/cifar10/epsilon_0.1/CGARepair/seed_42/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "adv/loc_result/adv/cifar10/epsilon_0.1/CGARepair/seed_42/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "adv",
+      "model": "cifar10",
+      "seed": 123,
+      "optimizer": "famo",
+      "run_dir": "adv/loc_result/adv/cifar10/epsilon_0.1/CGARepair/seed_123/famo_paper_gamma001_steps5000",
+      "summary": "adv/loc_result/adv/cifar10/epsilon_0.1/CGARepair/seed_123/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "adv/loc_result/adv/cifar10/epsilon_0.1/CGARepair/seed_123/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "adv/loc_result/adv/cifar10/epsilon_0.1/CGARepair/seed_123/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "adv",
+      "model": "cifar10",
+      "seed": 256,
+      "optimizer": "famo",
+      "run_dir": "adv/loc_result/adv/cifar10/epsilon_0.1/CGARepair/seed_256/famo_paper_gamma001_steps5000",
+      "summary": "adv/loc_result/adv/cifar10/epsilon_0.1/CGARepair/seed_256/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "adv/loc_result/adv/cifar10/epsilon_0.1/CGARepair/seed_256/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "adv/loc_result/adv/cifar10/epsilon_0.1/CGARepair/seed_256/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "adv",
+      "model": "cifar10",
+      "seed": 1024,
+      "optimizer": "famo",
+      "run_dir": "adv/loc_result/adv/cifar10/epsilon_0.1/CGARepair/seed_1024/famo_paper_gamma001_steps5000",
+      "summary": "adv/loc_result/adv/cifar10/epsilon_0.1/CGARepair/seed_1024/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "adv/loc_result/adv/cifar10/epsilon_0.1/CGARepair/seed_1024/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "adv/loc_result/adv/cifar10/epsilon_0.1/CGARepair/seed_1024/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "adv",
+      "model": "cifar10",
+      "seed": 2026,
+      "optimizer": "famo",
+      "run_dir": "adv/loc_result/adv/cifar10/epsilon_0.1/CGARepair/seed_2026/famo_paper_gamma001_steps5000",
+      "summary": "adv/loc_result/adv/cifar10/epsilon_0.1/CGARepair/seed_2026/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "adv/loc_result/adv/cifar10/epsilon_0.1/CGARepair/seed_2026/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "adv/loc_result/adv/cifar10/epsilon_0.1/CGARepair/seed_2026/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "backdoor",
+      "model": "fashion",
+      "seed": 42,
+      "optimizer": "famo",
+      "run_dir": "backdoor/loc_result/fashion/CGARepair/seed_42/famo_paper_gamma001_steps5000",
+      "summary": "backdoor/loc_result/fashion/CGARepair/seed_42/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "backdoor/loc_result/fashion/CGARepair/seed_42/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "backdoor/loc_result/fashion/CGARepair/seed_42/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "backdoor",
+      "model": "fashion",
+      "seed": 123,
+      "optimizer": "famo",
+      "run_dir": "backdoor/loc_result/fashion/CGARepair/seed_123/famo_paper_gamma001_steps5000",
+      "summary": "backdoor/loc_result/fashion/CGARepair/seed_123/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "backdoor/loc_result/fashion/CGARepair/seed_123/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "backdoor/loc_result/fashion/CGARepair/seed_123/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "backdoor",
+      "model": "fashion",
+      "seed": 256,
+      "optimizer": "famo",
+      "run_dir": "backdoor/loc_result/fashion/CGARepair/seed_256/famo_paper_gamma001_steps5000",
+      "summary": "backdoor/loc_result/fashion/CGARepair/seed_256/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "backdoor/loc_result/fashion/CGARepair/seed_256/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "backdoor/loc_result/fashion/CGARepair/seed_256/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "backdoor",
+      "model": "fashion",
+      "seed": 1024,
+      "optimizer": "famo",
+      "run_dir": "backdoor/loc_result/fashion/CGARepair/seed_1024/famo_paper_gamma001_steps5000",
+      "summary": "backdoor/loc_result/fashion/CGARepair/seed_1024/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "backdoor/loc_result/fashion/CGARepair/seed_1024/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "backdoor/loc_result/fashion/CGARepair/seed_1024/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "backdoor",
+      "model": "fashion",
+      "seed": 2026,
+      "optimizer": "famo",
+      "run_dir": "backdoor/loc_result/fashion/CGARepair/seed_2026/famo_paper_gamma001_steps5000",
+      "summary": "backdoor/loc_result/fashion/CGARepair/seed_2026/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "backdoor/loc_result/fashion/CGARepair/seed_2026/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "backdoor/loc_result/fashion/CGARepair/seed_2026/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "backdoor",
+      "model": "gtsrb_resnet",
+      "seed": 42,
+      "optimizer": "famo",
+      "run_dir": "backdoor/loc_result/gtsrb_resnet/CGARepair/seed_42/famo_paper_gamma001_steps5000",
+      "summary": "backdoor/loc_result/gtsrb_resnet/CGARepair/seed_42/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "backdoor/loc_result/gtsrb_resnet/CGARepair/seed_42/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "backdoor/loc_result/gtsrb_resnet/CGARepair/seed_42/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "backdoor",
+      "model": "gtsrb_resnet",
+      "seed": 123,
+      "optimizer": "famo",
+      "run_dir": "backdoor/loc_result/gtsrb_resnet/CGARepair/seed_123/famo_paper_gamma001_steps5000",
+      "summary": "backdoor/loc_result/gtsrb_resnet/CGARepair/seed_123/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "backdoor/loc_result/gtsrb_resnet/CGARepair/seed_123/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "backdoor/loc_result/gtsrb_resnet/CGARepair/seed_123/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "backdoor",
+      "model": "gtsrb_resnet",
+      "seed": 256,
+      "optimizer": "famo",
+      "run_dir": "backdoor/loc_result/gtsrb_resnet/CGARepair/seed_256/famo_paper_gamma001_steps5000",
+      "summary": "backdoor/loc_result/gtsrb_resnet/CGARepair/seed_256/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "backdoor/loc_result/gtsrb_resnet/CGARepair/seed_256/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "backdoor/loc_result/gtsrb_resnet/CGARepair/seed_256/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "backdoor",
+      "model": "gtsrb_resnet",
+      "seed": 1024,
+      "optimizer": "famo",
+      "run_dir": "backdoor/loc_result/gtsrb_resnet/CGARepair/seed_1024/famo_paper_gamma001_steps5000",
+      "summary": "backdoor/loc_result/gtsrb_resnet/CGARepair/seed_1024/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "backdoor/loc_result/gtsrb_resnet/CGARepair/seed_1024/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "backdoor/loc_result/gtsrb_resnet/CGARepair/seed_1024/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "backdoor",
+      "model": "gtsrb_resnet",
+      "seed": 2026,
+      "optimizer": "famo",
+      "run_dir": "backdoor/loc_result/gtsrb_resnet/CGARepair/seed_2026/famo_paper_gamma001_steps5000",
+      "summary": "backdoor/loc_result/gtsrb_resnet/CGARepair/seed_2026/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "backdoor/loc_result/gtsrb_resnet/CGARepair/seed_2026/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "backdoor/loc_result/gtsrb_resnet/CGARepair/seed_2026/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "safety",
+      "model": "a19",
+      "seed": 42,
+      "optimizer": "famo",
+      "run_dir": "safety/loc_result/a19/CGARepair/seed_42/famo_paper_gamma001_steps5000",
+      "summary": "safety/loc_result/a19/CGARepair/seed_42/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "safety/loc_result/a19/CGARepair/seed_42/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "safety/loc_result/a19/CGARepair/seed_42/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "safety",
+      "model": "a19",
+      "seed": 123,
+      "optimizer": "famo",
+      "run_dir": "safety/loc_result/a19/CGARepair/seed_123/famo_paper_gamma001_steps5000",
+      "summary": "safety/loc_result/a19/CGARepair/seed_123/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "safety/loc_result/a19/CGARepair/seed_123/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "safety/loc_result/a19/CGARepair/seed_123/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "safety",
+      "model": "a19",
+      "seed": 256,
+      "optimizer": "famo",
+      "run_dir": "safety/loc_result/a19/CGARepair/seed_256/famo_paper_gamma001_steps5000",
+      "summary": "safety/loc_result/a19/CGARepair/seed_256/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "safety/loc_result/a19/CGARepair/seed_256/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "safety/loc_result/a19/CGARepair/seed_256/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "safety",
+      "model": "a19",
+      "seed": 1024,
+      "optimizer": "famo",
+      "run_dir": "safety/loc_result/a19/CGARepair/seed_1024/famo_paper_gamma001_steps5000",
+      "summary": "safety/loc_result/a19/CGARepair/seed_1024/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "safety/loc_result/a19/CGARepair/seed_1024/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "safety/loc_result/a19/CGARepair/seed_1024/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "safety",
+      "model": "a19",
+      "seed": 2026,
+      "optimizer": "famo",
+      "run_dir": "safety/loc_result/a19/CGARepair/seed_2026/famo_paper_gamma001_steps5000",
+      "summary": "safety/loc_result/a19/CGARepair/seed_2026/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "safety/loc_result/a19/CGARepair/seed_2026/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "safety/loc_result/a19/CGARepair/seed_2026/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "safety",
+      "model": "a29",
+      "seed": 42,
+      "optimizer": "famo",
+      "run_dir": "safety/loc_result/a29/CGARepair/seed_42/famo_paper_gamma001_steps5000",
+      "summary": "safety/loc_result/a29/CGARepair/seed_42/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "safety/loc_result/a29/CGARepair/seed_42/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "safety/loc_result/a29/CGARepair/seed_42/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "safety",
+      "model": "a29",
+      "seed": 123,
+      "optimizer": "famo",
+      "run_dir": "safety/loc_result/a29/CGARepair/seed_123/famo_paper_gamma001_steps5000",
+      "summary": "safety/loc_result/a29/CGARepair/seed_123/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "safety/loc_result/a29/CGARepair/seed_123/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "safety/loc_result/a29/CGARepair/seed_123/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "safety",
+      "model": "a29",
+      "seed": 256,
+      "optimizer": "famo",
+      "run_dir": "safety/loc_result/a29/CGARepair/seed_256/famo_paper_gamma001_steps5000",
+      "summary": "safety/loc_result/a29/CGARepair/seed_256/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "safety/loc_result/a29/CGARepair/seed_256/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "safety/loc_result/a29/CGARepair/seed_256/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "safety",
+      "model": "a29",
+      "seed": 1024,
+      "optimizer": "famo",
+      "run_dir": "safety/loc_result/a29/CGARepair/seed_1024/famo_paper_gamma001_steps5000",
+      "summary": "safety/loc_result/a29/CGARepair/seed_1024/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "safety/loc_result/a29/CGARepair/seed_1024/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "safety/loc_result/a29/CGARepair/seed_1024/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "safety",
+      "model": "a29",
+      "seed": 2026,
+      "optimizer": "famo",
+      "run_dir": "safety/loc_result/a29/CGARepair/seed_2026/famo_paper_gamma001_steps5000",
+      "summary": "safety/loc_result/a29/CGARepair/seed_2026/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "safety/loc_result/a29/CGARepair/seed_2026/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "safety/loc_result/a29/CGARepair/seed_2026/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "safety",
+      "model": "a33",
+      "seed": 42,
+      "optimizer": "famo",
+      "run_dir": "safety/loc_result/a33/CGARepair/seed_42/famo_paper_gamma001_steps5000",
+      "summary": "safety/loc_result/a33/CGARepair/seed_42/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "safety/loc_result/a33/CGARepair/seed_42/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "safety/loc_result/a33/CGARepair/seed_42/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "safety",
+      "model": "a33",
+      "seed": 123,
+      "optimizer": "famo",
+      "run_dir": "safety/loc_result/a33/CGARepair/seed_123/famo_paper_gamma001_steps5000",
+      "summary": "safety/loc_result/a33/CGARepair/seed_123/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "safety/loc_result/a33/CGARepair/seed_123/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "safety/loc_result/a33/CGARepair/seed_123/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "safety",
+      "model": "a33",
+      "seed": 256,
+      "optimizer": "famo",
+      "run_dir": "safety/loc_result/a33/CGARepair/seed_256/famo_paper_gamma001_steps5000",
+      "summary": "safety/loc_result/a33/CGARepair/seed_256/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "safety/loc_result/a33/CGARepair/seed_256/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "safety/loc_result/a33/CGARepair/seed_256/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "safety",
+      "model": "a33",
+      "seed": 1024,
+      "optimizer": "famo",
+      "run_dir": "safety/loc_result/a33/CGARepair/seed_1024/famo_paper_gamma001_steps5000",
+      "summary": "safety/loc_result/a33/CGARepair/seed_1024/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "safety/loc_result/a33/CGARepair/seed_1024/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "safety/loc_result/a33/CGARepair/seed_1024/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "safety",
+      "model": "a33",
+      "seed": 2026,
+      "optimizer": "famo",
+      "run_dir": "safety/loc_result/a33/CGARepair/seed_2026/famo_paper_gamma001_steps5000",
+      "summary": "safety/loc_result/a33/CGARepair/seed_2026/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "safety/loc_result/a33/CGARepair/seed_2026/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "safety/loc_result/a33/CGARepair/seed_2026/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "fairness",
+      "model": "bank",
+      "seed": 42,
+      "optimizer": "famo",
+      "run_dir": "fairness/loc_result/bank/CGARepair/seed_42/famo_paper_gamma001_steps5000",
+      "summary": "fairness/loc_result/bank/CGARepair/seed_42/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "fairness/loc_result/bank/CGARepair/seed_42/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "fairness/loc_result/bank/CGARepair/seed_42/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "fairness",
+      "model": "bank",
+      "seed": 123,
+      "optimizer": "famo",
+      "run_dir": "fairness/loc_result/bank/CGARepair/seed_123/famo_paper_gamma001_steps5000",
+      "summary": "fairness/loc_result/bank/CGARepair/seed_123/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "fairness/loc_result/bank/CGARepair/seed_123/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "fairness/loc_result/bank/CGARepair/seed_123/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "fairness",
+      "model": "bank",
+      "seed": 256,
+      "optimizer": "famo",
+      "run_dir": "fairness/loc_result/bank/CGARepair/seed_256/famo_paper_gamma001_steps5000",
+      "summary": "fairness/loc_result/bank/CGARepair/seed_256/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "fairness/loc_result/bank/CGARepair/seed_256/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "fairness/loc_result/bank/CGARepair/seed_256/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "fairness",
+      "model": "bank",
+      "seed": 1024,
+      "optimizer": "famo",
+      "run_dir": "fairness/loc_result/bank/CGARepair/seed_1024/famo_paper_gamma001_steps5000",
+      "summary": "fairness/loc_result/bank/CGARepair/seed_1024/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "fairness/loc_result/bank/CGARepair/seed_1024/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "fairness/loc_result/bank/CGARepair/seed_1024/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "fairness",
+      "model": "bank",
+      "seed": 2026,
+      "optimizer": "famo",
+      "run_dir": "fairness/loc_result/bank/CGARepair/seed_2026/famo_paper_gamma001_steps5000",
+      "summary": "fairness/loc_result/bank/CGARepair/seed_2026/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "fairness/loc_result/bank/CGARepair/seed_2026/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "fairness/loc_result/bank/CGARepair/seed_2026/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "fairness",
+      "model": "adult",
+      "seed": 42,
+      "optimizer": "famo",
+      "run_dir": "fairness/loc_result/adult/CGARepair/seed_42/famo_paper_gamma001_steps5000",
+      "summary": "fairness/loc_result/adult/CGARepair/seed_42/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "fairness/loc_result/adult/CGARepair/seed_42/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "fairness/loc_result/adult/CGARepair/seed_42/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "fairness",
+      "model": "adult",
+      "seed": 123,
+      "optimizer": "famo",
+      "run_dir": "fairness/loc_result/adult/CGARepair/seed_123/famo_paper_gamma001_steps5000",
+      "summary": "fairness/loc_result/adult/CGARepair/seed_123/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "fairness/loc_result/adult/CGARepair/seed_123/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "fairness/loc_result/adult/CGARepair/seed_123/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "fairness",
+      "model": "adult",
+      "seed": 256,
+      "optimizer": "famo",
+      "run_dir": "fairness/loc_result/adult/CGARepair/seed_256/famo_paper_gamma001_steps5000",
+      "summary": "fairness/loc_result/adult/CGARepair/seed_256/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "fairness/loc_result/adult/CGARepair/seed_256/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "fairness/loc_result/adult/CGARepair/seed_256/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "fairness",
+      "model": "adult",
+      "seed": 1024,
+      "optimizer": "famo",
+      "run_dir": "fairness/loc_result/adult/CGARepair/seed_1024/famo_paper_gamma001_steps5000",
+      "summary": "fairness/loc_result/adult/CGARepair/seed_1024/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "fairness/loc_result/adult/CGARepair/seed_1024/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "fairness/loc_result/adult/CGARepair/seed_1024/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "fairness",
+      "model": "adult",
+      "seed": 2026,
+      "optimizer": "famo",
+      "run_dir": "fairness/loc_result/adult/CGARepair/seed_2026/famo_paper_gamma001_steps5000",
+      "summary": "fairness/loc_result/adult/CGARepair/seed_2026/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "fairness/loc_result/adult/CGARepair/seed_2026/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "fairness/loc_result/adult/CGARepair/seed_2026/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "fairness",
+      "model": "default",
+      "seed": 42,
+      "optimizer": "famo",
+      "run_dir": "fairness/loc_result/default/CGARepair/seed_42/famo_paper_gamma001_steps5000",
+      "summary": "fairness/loc_result/default/CGARepair/seed_42/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "fairness/loc_result/default/CGARepair/seed_42/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "fairness/loc_result/default/CGARepair/seed_42/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "fairness",
+      "model": "default",
+      "seed": 123,
+      "optimizer": "famo",
+      "run_dir": "fairness/loc_result/default/CGARepair/seed_123/famo_paper_gamma001_steps5000",
+      "summary": "fairness/loc_result/default/CGARepair/seed_123/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "fairness/loc_result/default/CGARepair/seed_123/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "fairness/loc_result/default/CGARepair/seed_123/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "fairness",
+      "model": "default",
+      "seed": 256,
+      "optimizer": "famo",
+      "run_dir": "fairness/loc_result/default/CGARepair/seed_256/famo_paper_gamma001_steps5000",
+      "summary": "fairness/loc_result/default/CGARepair/seed_256/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "fairness/loc_result/default/CGARepair/seed_256/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "fairness/loc_result/default/CGARepair/seed_256/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "fairness",
+      "model": "default",
+      "seed": 1024,
+      "optimizer": "famo",
+      "run_dir": "fairness/loc_result/default/CGARepair/seed_1024/famo_paper_gamma001_steps5000",
+      "summary": "fairness/loc_result/default/CGARepair/seed_1024/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "fairness/loc_result/default/CGARepair/seed_1024/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "fairness/loc_result/default/CGARepair/seed_1024/famo_paper_gamma001_steps5000/test_results.json"
+    },
+    {
+      "task": "fairness",
+      "model": "default",
+      "seed": 2026,
+      "optimizer": "famo",
+      "run_dir": "fairness/loc_result/default/CGARepair/seed_2026/famo_paper_gamma001_steps5000",
+      "summary": "fairness/loc_result/default/CGARepair/seed_2026/famo_paper_gamma001_steps5000/summary.json",
+      "checkpoint": "fairness/loc_result/default/CGARepair/seed_2026/famo_paper_gamma001_steps5000/best_weights.h5",
+      "test": "fairness/loc_result/default/CGARepair/seed_2026/famo_paper_gamma001_steps5000/test_results.json"
+    }
+  ]
+}
